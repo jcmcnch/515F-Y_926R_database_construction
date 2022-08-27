@@ -1,7 +1,7 @@
 #!/bin/bash -i
 conda activate qiime2-2022.8
 
-me rescript dereplicate \
+qiime rescript dereplicate \
     --i-sequences silva-138.1-ssu-nr99-seqs-515FY-926R.qza \
     --i-taxa silva-138.1-ssu-nr99-tax-derep-uniq.qza \
     --p-rank-handles 'silva' \
