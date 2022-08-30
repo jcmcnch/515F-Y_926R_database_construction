@@ -1,0 +1,38 @@
+name: biopython-env
+channels:
+  - anaconda
+  - bioconda
+  - conda-forge
+  - default
+  - defaults
+dependencies:
+  - biopython=1.72
+  - blas=1.0
+  - ca-certificates=2019.1.23
+  - certifi=2019.3.9
+  - intel-openmp=2019.0
+  - libedit=3.1.20170329
+  - libffi=3.2.1
+  - libgcc-ng=8.2.0
+  - libgfortran-ng=7.3.0
+  - libstdcxx-ng=8.2.0
+  - mkl=2019.0
+  - mkl_fft=1.0.4
+  - mkl_random=1.0.1
+  - ncurses=6.1
+  - numpy=1.15.1
+  - numpy-base=1.15.1
+  - openssl=1.1.1
+  - pandas=0.24.2
+  - pip=10.0.1
+  - python=3.7.2
+  - python-dateutil=2.8.0
+  - pytz=2018.9
+  - readline=7.0
+  - setuptools=40.2.0
+  - six=1.12.0
+  - sqlite=3.26.0
+  - tk=8.6.8
+  - wheel=0.31.1
+  - xz=5.2.4
+  - zlib=1.2.11
