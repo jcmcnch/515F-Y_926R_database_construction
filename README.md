@@ -6,10 +6,11 @@ How artifacts were created:
 
 1. Using the steps outlined in the RESCRIPt tutorial posted on the `qiime2` forum (see link below), *SILVA* (138.1) classifiers were created for the 515F-Y / 926R primers.
 2. The dereplicated sequences and taxonomy were exported to create input files for `VSEARCH`.
-3. These files were combined using a custom python script.
+3. These files were formatted to the requirements of the SINTAX algorithm (see `VSEARCH` manual) using a custom python script.
 4. A UDB file was then created with `VSEARCH`.
-5. The same steps were followed for *PR2* (4.14.0).
-6. All four classifiers were uploaded to OSF.io.
+5. For *PR2* (4.14.0), the "UTAX" file was downloaded and directly converted to a UDB file for `VSEARCH` without any further QC.
+6. To train the PR2 classifier for `qiime2`, the steps for *SILVA* were followed except no length-based filtering was applied.
+7. All four classifiers were uploaded to OSF.io.
 
 To do:
 - Re-jig pipeline to include updated db and new workflow (PR2 as first-pass, SILVA138.1 second)

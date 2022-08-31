@@ -18,7 +18,7 @@ hashTax = {}
 
 for astrLine in csv.reader(open(args.taxonomy), csv.excel_tab):
 
-    strVSEARCHformattedtax = ( "tax=" + re.sub("D_\d+__(.+);D_\d+__(.+);D_\d+__(.+);D_\d+__(.+);D_\d+__(.+);D_\d+__(.+);D_\d+__(.+)", "d:\g<1>,p:\g<2>,c:\g<3>,o:\g<4>,f:\g<5>,g:\g<6>,s:\g<7>", astrLine[1].strip() ) ).replace(";",",")
+    strVSEARCHformattedtax = ( "tax=" + re.sub("d__(.+); p__(.+); c__(.+); o__(.+); f__(.+); g__(.+); s__(.+)", "d:\g<1>,p:\g<2>,c:\g<3>,o:\g<4>,f:\g<5>,g:\g<6>,s:\g<7>", astrLine[1].strip() ) ).replace(";",",")
 
     strVSEARCHheader = ';'.join([astrLine[0].strip(), strVSEARCHformattedtax])
 
