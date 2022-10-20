@@ -7,4 +7,4 @@ qiime feature-classifier extract-reads \
     --p-r-primer ACTTTCGTTCTTGATYRR \
     --p-n-jobs 2 \
     --p-read-orientation 'forward' \
-    --o-reads pr2_version_4.14.0_SSU-seqs-515FY-926R.qza
+    --o-reads pr2_version_4.14.0_SSU-seqs-Wulf.qza
