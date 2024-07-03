@@ -1,0 +1,8 @@
+Scripts to make the PR2_v5 database.
+Most steps are the same steps as constructing the PR2_4.14 version.
+The main difference is changing the --p-rank-handles from 'silva' to 'disable' due to the new taxonomy.
+This version is different in that taxonomy has 9 not 7 levels.
+
+You will need qiime2-amplicon-2024.5 and access to a High Performance Computer.
+
+By Maria D Hernandez Limon 7/3/24
