@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -i
 
 conda activate qiime2-amplicon-2024.5 
 echo "conda activated"
