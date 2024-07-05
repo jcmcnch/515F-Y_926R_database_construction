@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -i
 
 #this script will extract the headers from the .fasta and create a table with feature/taxonomy
 
