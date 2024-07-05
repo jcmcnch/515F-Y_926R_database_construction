@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -i
 
 ## This script will create PR2_Euks_only.fasta, Silva138_EUKS_only.fasta, Silva138_PROK_only.fasta
 ## make sure to change the path of your Silva-138.1-ssu-nr99-tax-515FY-926R-derep-uniq.qza
