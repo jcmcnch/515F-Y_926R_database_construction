@@ -1,0 +1,16 @@
+Scripts to extract different taxonomy from Silva and PR2 to then clean and combine to make a database
+that can split fasta output into a Prokaryotes set (Based on Silva 138.1) or a Eukaryotes set (combining Silva 138.1 and PR2).
+
+Follow the Silva 138.1 steps to make the inputs needed for this portion.
+
+Make sure you have the following installed:
+
+- qiime2-amplicon-2024.5 
+- bbmap 
+- java (for bbmap)
+- cdhit #mamba install -c bioconda cd-hit cd-hit-auxtools
+- seqtk #https://github.com/lh3/seqtk
+
+Some steps require multiple hours of High performance computing (HPC).
+
+By Maria D Hernandez Limon 7/3/24
