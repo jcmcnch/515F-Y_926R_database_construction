@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -i
 
 #combine reads on 95% identity to make dabatase smaller
 
