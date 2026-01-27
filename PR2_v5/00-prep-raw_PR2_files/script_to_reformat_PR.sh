@@ -5,11 +5,11 @@
 ##download the file
 wget https://github.com/pr2database/pr2database/releases/download/v5.0.0/pr2_version_5.0.0_SSU_dada2.fasta.gz
 ## unzip
-gzip -d pr2_version5.0.0_SSU_dada2.fasta.gz
+gzip -d pr2_version_5.0.0_SSU_dada2.fasta.gz
 
 
 # Input file
-input_file="pr2_version5.0.0_SSU_dada2.fasta"
+input_file="pr2_version_5.0.0_SSU_dada2.fasta"
 # Output file
 output_file="pr2_clean.fasta"
 # File to save the extracted lines
